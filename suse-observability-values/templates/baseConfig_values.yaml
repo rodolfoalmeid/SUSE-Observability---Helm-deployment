@@ -1,0 +1,18 @@
+---
+# Source: suse-observability-values/templates/baseConfig_values.yaml
+global:
+  receiverApiKey: "h1tgCiuCRB8CRW8kTvMX1HrPEPD25iH2"
+
+stackstate:
+  baseUrl: "rralab-obs.do.support.rancher.space"
+  admin:
+    authentication:
+      password: "$2a$10$hBd3bPnfNJfh/lwSA6Y97uVfujrfpkusVKkiC2gqvzbgWqXDX/sYu"
+  authentication:
+    adminPassword: "$2a$10$N08f/khpHpxRJKLFgUgVyuGS3SI7mbM1mhsRZ7WBD7kZ9QVtVrD7O"
+  license:
+    key: "KE7UD-Q0VDQ-JM76A"
+---
+# Source: suse-observability-values/templates/baseConfig_values.yaml
+# Your SUSE Observability admin password is: wRHlmm21uwBVo0gM
+# Your SUSE Observability admin API password is: secGwFinrT2oDaou
